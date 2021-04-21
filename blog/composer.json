@@ -1,0 +1,19 @@
+{
+    "name": "ahcen/blog",
+    "description": "blog",
+    "type": "project",
+    "authors": [
+        {
+            "name": "ahcen kadi",
+            "email": "ahcene.kadi@laplateforme.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Router\\": "routes/",
+            "App\\": "app/",
+            "Database\\": "database/"
+        }
+    },
+    "require": {}
+}
